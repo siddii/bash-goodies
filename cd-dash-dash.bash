@@ -1,3 +1,4 @@
+#Thanks to Petar Marinov for writing this utility script. I originally discovered this from cygwin's script folder.
 #For more information on how to use this script head to - http://boxysystems.com/index.php/unixcygwin-tip-change-directory-like-a-command-line-commando/
 cd_func ()
  {
