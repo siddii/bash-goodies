@@ -1,3 +1,4 @@
+#Got this from - https://github.com/evbogue/git-aliases
 alias gd="git diff | mate"
 alias ga="git add"
 alias gbd="git branch -D"
