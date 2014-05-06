@@ -1,12 +1,12 @@
 bash-utils
 =====
 
-Collection of bash utilities for GIT & other command line goodness!
+Collection of bash utilities for GIT & other command line goodies!
 
 ##Disclaimer
 
-The source files & scripts in this repository are collected from various sources. 
-Please refer to the individual scripts for their origin. Thanks to those individual contributors for making this possible :)
+The source code in this repository are collected from various sources. 
+Please refer to the individual script files for their origin. Thanks to those contributors for making this possible :)
 
 ##Installation
 
