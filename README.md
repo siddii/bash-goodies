@@ -8,7 +8,7 @@ Collection of bash utilities for GIT & other command line goodies!
 ##Installation
 
 ```bash
-curl https://raw.github.com/siddii/bash-utils/master/install.sh | sh
+curl https://raw.githubusercontent.com/siddii/bash-utils/master/install.sh | sh
 ```
 
 ##Credits
