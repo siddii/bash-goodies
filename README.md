@@ -5,7 +5,7 @@ Collection of bash utilities for GIT & other command line goodies!
 ##Demo
 ![Bash Utils Demo](BashUtils.gif "Demo")
 
-##Installation
+##Installation/Upgrade
 
 ```bash
 curl https://raw.githubusercontent.com/siddii/bash-utils/master/install.sh | sh
