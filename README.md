@@ -1,4 +1,4 @@
-bash-utils
+bash-goodies
 =====
 Collection of bash utilities for GIT & other command line goodies!
 
@@ -8,7 +8,7 @@ Collection of bash utilities for GIT & other command line goodies!
 ##Installation/Upgrade
 
 ```bash
-curl https://raw.githubusercontent.com/siddii/bash-utils/master/install.sh | sh
+curl https://raw.githubusercontent.com/siddii/bash-goodies/master/install.sh | sh
 ```
 
 ##Credits
