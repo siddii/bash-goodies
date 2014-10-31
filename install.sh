@@ -1,14 +1,14 @@
 #!/bin/bash
 
-BASH_UTILS_DIR="$HOME/.bash-utils"
+BASH_GOODIES_DIR="$HOME/.bash-goodies"
 
-if [ -d "$BASH_UTILS_DIR" ]; then
-  echo "=> bash-utils is already installed in $BASH_UTILS_DIR, trying to update"
+if [ -d "$BASH_GOODIES_DIR" ]; then
+  echo "=> bash-goodies is already installed in $BASH_GOODIES_DIR, trying to update"
   echo -ne "\r=> "
-  cd $BASH_UTILS_DIR && git pull
+  cd $BASH_GOODIES_DIR && git pull
 else
-  # Cloning to $BASH_UTILS_DIR
-  git clone https://github.com/siddii/bash-utils.git $BASH_UTILS_DIR
+  # Cloning to $BASH_GOODIES_DIR
+  git clone https://github.com/siddii/bash-goodies.git $BASH_GOODIES_DIR
 fi
 
 echo
@@ -24,7 +24,7 @@ else
   fi
 fi
 
-SOURCE_STR="[[ -s "$BASH_UTILS_DIR/bash-utils.sh" ]] && . "$BASH_UTILS_DIR/bash-utils.sh"  # This loads bash-utils"
+SOURCE_STR="[[ -s "$BASH_GOODIES_DIR/bash-goodies.sh" ]] && . "$BASH_GOODIES_DIR/bash-goodies.sh"  # This loads bash-goodies"
 
 if [ -z "$PROFILE" ] || [ ! -f "$PROFILE" ] ; then
   if [ -z $PROFILE ]; then
@@ -46,7 +46,7 @@ if [ -z "$PROFILE" ] || [ ! -f "$PROFILE" ] ; then
   exit
 fi
 
-if ! grep -qc 'bash-utils.sh' $PROFILE; then
+if ! grep -qc 'bash-goodies.sh' $PROFILE; then
   echo "=> Appending source string to $PROFILE"
   echo "" >> "$PROFILE"
   echo $SOURCE_STR >> "$PROFILE"
@@ -54,4 +54,4 @@ else
   echo "=> Source string already in $PROFILE"
 fi
 
-echo "=> Close and reopen your terminal to start using bash-utils"
+echo "=> Close and reopen your terminal to start using bash-goodies"

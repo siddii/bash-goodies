@@ -3,7 +3,7 @@ bash-goodies
 Collection of bash utilities for GIT & other command line goodies!
 
 ##Demo
-![Bash Utils Demo](BashUtils.gif "Demo")
+![Bash Utils Demo](BashGoodies.gif "Demo")
 
 ##Installation/Upgrade
 
