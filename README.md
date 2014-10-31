@@ -2,16 +2,16 @@ bash-goodies
 =====
 Collection of bash utilities for GIT & other command line goodies!
 
-##Demo
+###Demo
 ![Bash Utils Demo](BashGoodies.gif "Demo")
 
-##Installation/Upgrade
+###Installation/Upgrade
 
 ```bash
 curl https://raw.githubusercontent.com/siddii/bash-goodies/master/install.sh | sh
 ```
 
-### General Commands/Aliases
+###General Commands/Aliases
 ```bash
 serve #Runs a Python based webserver with optional port
 ```
@@ -24,7 +24,7 @@ pop 8080 #Finds process with open port
 o . #Will open Finder on Mac
 ```
 
-### GIT aliases
+###GIT aliases
 ```bash
 gd      #"git diff | mate"
 ga      #"git add"
@@ -45,7 +45,7 @@ gpom    #"git pull origin master"
 gcd     #'cd "`git rev-parse --show-toplevel`"'
 ```
 
-##Credits
+###Credits
 
 The source code in this repository are collected from various sources.
 Please refer to the individual script files for their origin. Thanks to those contributors for making this possible :)
