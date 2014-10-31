@@ -7,9 +7,8 @@ Collection of bash goodies for GIT & other command line awesomeness!
 curl https://raw.githubusercontent.com/siddii/bash-goodies/master/install.sh | sh
 ```
 
-###Demos
+###Demo
 ![General Goodies Demo](GeneralGoodies.gif "General Goodies Demo")
-![GIT Goodies Demo](GITGoodies.gif "GIT Goodies Demo")
 
 ###General Commands/Aliases
 ```bash
@@ -25,6 +24,7 @@ o . #Will open Finder on Mac
 ```
 
 ###GIT aliases
+![GIT Goodies Demo](GITGoodies.gif "GIT Goodies Demo")
 Comes with auto completion for all GIT commands & the aliases listed below
 ```bash
 gd      #"git diff | mate"
