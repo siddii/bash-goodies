@@ -46,7 +46,6 @@ gcd     #'cd "`git rev-parse --show-toplevel`"'
 ```
 
 ###Credits
-
 The source code in this repository are collected from various sources.
 Please refer to the individual script files for their origin. Thanks to those contributors for making this possible :)
 
