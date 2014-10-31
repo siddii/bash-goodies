@@ -1,6 +1,6 @@
 bash-goodies
 =====
-Collection of bash utilities for GIT & other command line goodies!
+Collection of bash goodies for GIT & other command line awesomeness!
 
 ###Demo
 ![Bash Utils Demo](BashGoodies.gif "Demo")
@@ -49,3 +49,6 @@ gcd     #'cd "`git rev-parse --show-toplevel`"'
 
 The source code in this repository are collected from various sources.
 Please refer to the individual script files for their origin. Thanks to those contributors for making this possible :)
+
+###Contribute
+If you have something that can make it to this list, feel free to send me a [PR](https://github.com/siddii/bash-goodies/pulls)!
