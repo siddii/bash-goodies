@@ -23,6 +23,10 @@ pop 8080 #Finds process with open port
 o . #Will open Finder on Mac
 ```
 
+```bash
+cd -- #List out the visited directories & let you choose one by cd -<no>
+```
+
 ###GIT aliases
 ![GIT Goodies Demo](GITGoodies.gif "GIT Goodies Demo")
 Comes with auto completion for all GIT commands & the aliases listed below
