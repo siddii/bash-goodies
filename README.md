@@ -2,10 +2,7 @@ bash-goodies
 =====
 Collection of bash goodies for GIT & other command line awesomeness!
 
-###Demo
-
 ###Installation/Upgrade
-
 ```bash
 curl https://raw.githubusercontent.com/siddii/bash-goodies/master/install.sh | sh
 ```
