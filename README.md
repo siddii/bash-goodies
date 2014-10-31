@@ -3,7 +3,6 @@ bash-goodies
 Collection of bash goodies for GIT & other command line awesomeness!
 
 ###Demo
-![Bash Utils Demo](BashGoodies.gif "Demo")
 
 ###Installation/Upgrade
 
@@ -12,6 +11,7 @@ curl https://raw.githubusercontent.com/siddii/bash-goodies/master/install.sh | s
 ```
 
 ###General Commands/Aliases
+![General Goodies Demo](GeneralGoodies.gif "General Goodies Demo")
 ```bash
 serve #Runs a Python based webserver with optional port
 ```
@@ -25,6 +25,8 @@ o . #Will open Finder on Mac
 ```
 
 ###GIT aliases
+![GIT Goodies Demo](GITGoodies.gif "GIT Goodies Demo")
+Comes with auto completion for all GIT commands & the aliases listed below
 ```bash
 gd      #"git diff | mate"
 ga      #"git add"
