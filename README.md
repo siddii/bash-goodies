@@ -27,6 +27,22 @@ o . #Will open Finder on Mac
 cd -- #List out the visited directories & let you choose one by cd -<no>
 ```
 
+```bash
+pman <command> #On Mac, it will open `man` page on Preview For ex. pman rsync
+```
+
+```bash
+quit <process*> #On Mac, it cleanly kills all the process matching the pattern
+```
+
+```bash
+ips #List all ips for this machine
+```
+
+```bash
+myip #List external ip for this machine
+```
+
 ###GIT aliases
 ![GIT Goodies Demo](GITGoodies.gif "GIT Goodies Demo")
 Comes with auto completion for all GIT commands & the aliases listed below
