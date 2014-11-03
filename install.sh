@@ -1,5 +1,5 @@
 #!/bin/bash
-#Bash script inspiration from https://github.com/creationix/nvm
+#Installation script inspiration from https://github.com/creationix/nvm
 
 set -e
 
