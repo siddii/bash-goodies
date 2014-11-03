@@ -15,14 +15,6 @@ pmanFn() {
 }
 alias pman=pmanFn
 
-#Source - http://apple.stackexchange.com/a/5461
-# Quit an OS X application from the command line
-quit() {
-    for app in $*; do
-        osascript -e 'quit app "'$app'"'
-    done
-}
-
 #Source - http://apple.stackexchange.com/a/5514
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"

@@ -32,10 +32,6 @@ pman <command> #On Mac, it will open `man` page on Preview For ex. pman rsync
 ```
 
 ```bash
-quit <process*> #On Mac, it cleanly kills all the process matching the pattern
-```
-
-```bash
 ips #List all ips for this machine
 ```
 
