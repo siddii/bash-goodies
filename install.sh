@@ -1,4 +1,7 @@
 #!/bin/bash
+#Bash script inspiration from https://github.com/creationix/nvm
+
+set -e
 
 BASH_GOODIES_DIR="$HOME/.bash-goodies"
 
