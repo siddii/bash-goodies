@@ -18,3 +18,7 @@ alias pman=pmanFn
 #Source - http://apple.stackexchange.com/a/5514
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+#Source - http://apple.stackexchange.com/a/118736
+#On Mac, copy the current path to the clipboard
+alias path='echo | pwd | pbcopy'
