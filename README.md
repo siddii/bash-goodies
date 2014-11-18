@@ -39,6 +39,10 @@ ips #List all ips for this machine
 myip #List external ip for this machine
 ```
 
+```bash
+path #On Mac, Copies the current path to the clipboard
+```
+
 ###GIT aliases
 ![GIT Goodies Demo](GITGoodies.gif "GIT Goodies Demo")
 Comes with auto completion for all GIT commands & the aliases listed below
